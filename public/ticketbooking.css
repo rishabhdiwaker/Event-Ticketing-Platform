@@ -1,0 +1,49 @@
+.event-info {
+    background: linear-gradient(to right, #0066cc, #3399ff);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+ 
+  .seat-grid {
+    display: grid;
+    /* position: relative; */
+    grid-template-columns: repeat(10, 40px); 
+    gap: 5px;
+    margin-bottom: 20px;
+  }
+
+ 
+  .seat {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .vacant-seat {
+    background-color: #6c757d;
+  }
+  .selected-seat {
+    background-color: #28a745;
+  }
+  .filled-seat {
+    background-color: #dc3545;
+  }
+  .cancel-allowed {
+    cursor: pointer;
+  }
+
+
+  .summary {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+  }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TicketLo</title>
+  <link rel="stylesheet" href="./ticketbooking.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+</head>
+
+<body>
+  <div class="container my-5">
+    <div class="event-info">
+      <h2 id="event-name"></h2>
+      <p id="event-date-time"></p>
+      <p>
+        Total Tickets: <span id="total-tickets">50</span> | Tickets Sold:
+        <span id="tickets-sold">10</span> | Tickets Available:
+        <span id="tickets-available">40</span> | Ticket price : ₹ 
+        <span id="tickets-prize"></span>
+      </p>
+    </div>
+
+    
+    <div class="seat-selection">
+      <h4>Select Your Seats:</h4>
+      <div id="seat-grid" class="seat-grid"></div>
+    </div>
+
+
+      {{!-- <p>Selected Seats: <span id="selected-seats">None</span></p> --}}
+    {{!-- <div class="summary">
+      <h5>Booking Summary</h5>
+      <p>Total Price: ₹<span id="total-price">0</span></p>
+      <button id="confirm-booking" class="btn btn-primary" > 
+        Confirm & Pay
+      </button>
+    </div> --}}
+  </div>
+  <script src="tb.js"></script>
+</body>
+
+</html>
